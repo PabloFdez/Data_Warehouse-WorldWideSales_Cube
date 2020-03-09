@@ -28,4 +28,6 @@ The structure of the Data Source View (including the relationships between all t
 
 ![image](https://github.com/PabloFdez/Data_Warehouse-WorldWideSales_Cube/blob/master/pictures/structure.png)
 
+The final cube created (including all its dimensions and MG and the attributes used to relate them) is shown bellow:
 
+![image](https://github.com/PabloFdez/Data_Warehouse-WorldWideSales_Cube/blob/master/pictures/cube.png)
