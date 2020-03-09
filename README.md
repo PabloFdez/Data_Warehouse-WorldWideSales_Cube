@@ -24,4 +24,8 @@ The following Dimensions and Measure Groups are implemented on the cube:
 | Order  | 
 | Purchase  | 
 
+The structure of the Data Source View (including the relationships between all the tables used) is the following:
+
+![image](https://github.com/PabloFdez/Data_Warehouse-WorldWideSales_Cube/blob/master/pictures/structure.png)
+
 
