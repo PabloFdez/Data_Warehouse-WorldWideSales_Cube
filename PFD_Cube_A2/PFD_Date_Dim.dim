@@ -1,0 +1,643 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="39176795-56af-4c04-b668-f8b209adf6f8" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>PFD_Date_Dim 1</ID>
+  <Name>PFD_Date_Dim</Name>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1666" scrolltop="-5080" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7832" y="15610" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="0100000090019e330100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="PFD_Date" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4048" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000d00f000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Dimension_Date" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1666</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5080</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="297">
+            <Shape Id="Date" Expanded="false">
+              <Attributes>
+                <Attribute Id="Date" />
+                <Attribute Id="Calendar Month Label" />
+                <Attribute Id="Calendar Month Number" />
+                <Attribute Id="Calendar Year Label" />
+                <Attribute Id="Day" />
+                <Attribute Id="Day Number" />
+                <Attribute Id="Fiscal Month Label" />
+                <Attribute Id="Fiscal Month Number" />
+                <Attribute Id="Fiscal Year" />
+                <Attribute Id="Fiscal Year Label" />
+                <Attribute Id="ISO Week Number" />
+                <Attribute Id="Month" />
+                <Attribute Id="PFD Beginning Month" />
+                <Attribute Id="PFD Beginning Quarter" />
+                <Attribute Id="PFD Month Year Key" />
+                <Attribute Id="PFD Quarter" />
+                <Attribute Id="PFD Quarter Number" />
+                <Attribute Id="PFD Quarter Year Key" />
+                <Attribute Id="Short Month" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="PFD Month Year" Expanded="false">
+              <Attributes>
+                <Attribute Id="PFD Month Year" />
+              </Attributes>
+              <Position x="396" y="20" />
+            </Shape>
+            <Shape Id="PFD Year Quarter" Expanded="false">
+              <Attributes>
+                <Attribute Id="PFD Year Quarter" />
+              </Attributes>
+              <Position x="772" y="20" />
+            </Shape>
+            <Shape Id="Calendar Year" Expanded="false">
+              <Attributes>
+                <Attribute Id="Calendar Year" />
+              </Attributes>
+              <Position x="1148" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="810934c2-a151-4e59-9254-058cb565be8c">
+    <DataSourceViewID>PFD_WideWorldImportersDW</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="8cead36d-264c-4218-9a29-c128f88710a3">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="9f073e58-04a8-48a6-84e5-73d05d0657c0">
+      <ID>Date</ID>
+      <Name>Date</Name>
+      <Type>Date</Type>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="14314f73-661c-4574-b394-dc7b5614f7ce">
+          <DataType>Date</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="175f374a-16a1-487f-9c15-fd56e9cd5e56">
+            <TableID>Dimension_Date</TableID>
+            <ColumnID>Date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="0eec21a0-8502-496a-bf78-d7f04572acf2">
+          <AttributeID>Day Number</AttributeID>
+          <Name>Day Number</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2d3ac82e-7fa7-4c72-a2f6-4b2b5aaf9a56">
+          <AttributeID>Day</AttributeID>
+          <Name>Day</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8664ef95-36c7-40fc-bc41-0ebd73270c33">
+          <AttributeID>Month</AttributeID>
+          <Name>Month</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7af4179a-3dbb-41f5-b6b9-328a98299f75">
+          <AttributeID>Short Month</AttributeID>
+          <Name>Short Month</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="575f53fc-7a4b-44ff-b710-ed4e37b6682a">
+          <AttributeID>Calendar Month Number</AttributeID>
+          <Name>Calendar Month Number</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8964db0b-3d51-4499-be0b-5b5281fdcee3">
+          <AttributeID>Calendar Month Label</AttributeID>
+          <Name>Calendar Month Label</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="96928cfe-0a29-458e-8f38-3521e54ac00d">
+          <AttributeID>Calendar Year Label</AttributeID>
+          <Name>Calendar Year Label</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3dbed1c0-dc15-4b43-bd70-d96ac80af7c7">
+          <AttributeID>Fiscal Month Number</AttributeID>
+          <Name>Fiscal Month Number</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8cfcae54-a929-4d46-ab4f-e42465fd3920">
+          <AttributeID>Fiscal Month Label</AttributeID>
+          <Name>Fiscal Month Label</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5440a51f-f542-4028-87ea-d26954653d5d">
+          <AttributeID>Fiscal Year</AttributeID>
+          <Name>Fiscal Year</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ad716c4b-226d-4cf4-9c55-4e17d17dc3a4">
+          <AttributeID>Fiscal Year Label</AttributeID>
+          <Name>Fiscal Year Label</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4c5efe66-ffdc-4695-bbb9-6649990a270e">
+          <AttributeID>ISO Week Number</AttributeID>
+          <Name>ISO Week Number</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b049345f-3ba0-4d5f-8ce6-80f2a66182cc">
+          <AttributeID>PFD Month Year Key</AttributeID>
+          <Name>PFD Month Year Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="770d80f8-0603-497b-9783-6ec63c0b918e">
+          <AttributeID>PFD Month Year</AttributeID>
+          <Name>PFD Month Year</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="52f0a6e5-51de-4fd4-a4c4-f25c05490bdb">
+          <AttributeID>PFD Quarter Number</AttributeID>
+          <Name>PFD Quarter Number</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="478f2570-af53-4376-bb1e-1ddc328d7f23">
+          <AttributeID>PFD Quarter Year Key</AttributeID>
+          <Name>PFD Quarter Year Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7fae370e-2d01-42dc-a7b5-1cc141af016d">
+          <AttributeID>PFD Quarter</AttributeID>
+          <Name>PFD Quarter</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="96ba9eee-db23-4419-93eb-5510975f74a0">
+          <AttributeID>PFD Beginning Quarter</AttributeID>
+          <Name>PFD Beginning Quarter</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cd8f2e73-4ca8-47b1-9a51-b46760718d1f">
+          <AttributeID>PFD Beginning Month</AttributeID>
+          <Name>PFD Beginning Month</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="aa9f530f-a69a-46ad-b476-fb67c996b30e">
+      <ID>Day Number</ID>
+      <Name>Day Number</Name>
+      <Type>Days</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e116a896-1e72-46f7-92fb-a7d08cf78755">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="327de10d-d5da-46af-b991-58bf2dca7693">
+            <TableID>Dimension_Date</TableID>
+            <ColumnID>Day_x0020_Number</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="10083e95-79e0-4915-8c4a-8eae651ab204">
+      <ID>Day</ID>
+      <Name>Day</Name>
+      <Type>Days</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="03b29cf8-8f7f-4df5-937c-063e76d9dded">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0b50a465-0b7e-4b68-bc20-4e0adad1a799">
+            <TableID>Dimension_Date</TableID>
+            <ColumnID>Day</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cb02e787-b10f-4395-b27b-bbb5c034a10f">
+      <ID>Month</ID>
+      <Name>Month</Name>
+      <Type>Months</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e8c76eb4-f4e2-4c2a-ac47-3de291ef622f">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f6fafb0e-fa20-4772-b724-b5a910e08d5e">
+            <TableID>Dimension_Date</TableID>
+            <ColumnID>Month</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="eebfa173-b047-4f7b-aa9f-121baf19f315">
+      <ID>Short Month</ID>
+      <Name>Short Month</Name>
+      <Type>Months</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b6fcc139-a5c6-4962-971f-18480b992a7c">
+          <DataType>WChar</DataType>
+          <DataSize>3</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9ebc711c-dd71-4048-95a4-201f93af8e87">
+            <TableID>Dimension_Date</TableID>
+            <ColumnID>Short_x0020_Month</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7a76c9ee-1b65-40bf-8454-e0f67e1a29f3">
+      <ID>Calendar Month Number</ID>
+      <Name>Calendar Month Number</Name>
+      <Type>MonthOfYear</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="91aa7f2c-b3d9-4106-964d-6f25cb6e3d48">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9dcd2c96-2947-4433-8516-0c6868795346">
+            <TableID>Dimension_Date</TableID>
+            <ColumnID>Calendar_x0020_Month_x0020_Number</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="84dc0ee2-b1ea-4ed0-8a88-d738457202fb">
+      <ID>Calendar Month Label</ID>
+      <Name>Calendar Month Label</Name>
+      <Type>Months</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7157fdcb-bf44-42f6-a177-3af3eccd4bae">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="78b0f850-a3ef-4b09-94c0-661f166a9928">
+            <TableID>Dimension_Date</TableID>
+            <ColumnID>Calendar_x0020_Month_x0020_Label</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4abae48d-9848-4b5b-8fb3-0840f93752f3">
+      <ID>Calendar Year</ID>
+      <Name>Calendar Year</Name>
+      <Type>Years</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b77dc869-1068-45d3-b31b-9b5841e75333">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b61377d0-fe7e-4707-90b8-2937cdc454d6">
+            <TableID>Dimension_Date</TableID>
+            <ColumnID>Calendar_x0020_Year</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2a7a95a3-c080-4455-b9a0-92116b7a274c">
+      <ID>Calendar Year Label</ID>
+      <Name>Calendar Year Label</Name>
+      <Type>Years</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3091895f-1d88-4170-bf7a-9666842ebcb9">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7899953e-75f6-4a50-b84c-0018188152a0">
+            <TableID>Dimension_Date</TableID>
+            <ColumnID>Calendar_x0020_Year_x0020_Label</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e91ff5bd-6881-4a5c-b012-7dedbc36cec2">
+      <ID>Fiscal Month Number</ID>
+      <Name>Fiscal Month Number</Name>
+      <Type>Months</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c04cb7b4-a6f6-49c0-8abd-9d39da434fdd">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="85880d19-c6d9-477e-ac7c-d6dd83b179f9">
+            <TableID>Dimension_Date</TableID>
+            <ColumnID>Fiscal_x0020_Month_x0020_Number</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="46560265-876c-46aa-87e4-8ef6fb75ae04">
+      <ID>Fiscal Month Label</ID>
+      <Name>Fiscal Month Label</Name>
+      <Type>Months</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="02c1eccb-1bf9-4986-9a26-f52140dd807c">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f0e41304-6def-42cc-8def-b624252819fc">
+            <TableID>Dimension_Date</TableID>
+            <ColumnID>Fiscal_x0020_Month_x0020_Label</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="236feee6-854a-4041-8087-ae6d9c9c993d">
+      <ID>Fiscal Year</ID>
+      <Name>Fiscal Year</Name>
+      <Type>Years</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="adc86d43-990f-49c1-9abe-cb54299b1702">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="71b17313-72c1-4123-8d41-7bcbbda9d9d7">
+            <TableID>Dimension_Date</TableID>
+            <ColumnID>Fiscal_x0020_Year</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ce21b5e7-085c-4360-b9b8-dafcfd7797ce">
+      <ID>Fiscal Year Label</ID>
+      <Name>Fiscal Year Label</Name>
+      <Type>Years</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b8127db9-3f22-412c-8f9e-6311b55250f3">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="22aa8721-9472-4c71-b2f6-3c3a9019c639">
+            <TableID>Dimension_Date</TableID>
+            <ColumnID>Fiscal_x0020_Year_x0020_Label</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9ea9e1a4-1f80-41e7-bcc0-5e742a511fb9">
+      <ID>ISO Week Number</ID>
+      <Name>ISO Week Number</Name>
+      <Type>Weeks</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="960ea7cd-2a75-4e44-b03c-95a674dc8ad6">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0e0f8851-a9d2-48cb-839a-96d83aada3ff">
+            <TableID>Dimension_Date</TableID>
+            <ColumnID>ISO_x0020_Week_x0020_Number</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7dbd4243-5eee-4b35-ba0e-044b2886f538">
+      <ID>PFD Month Year Key</ID>
+      <Name>PFD Month Year Key</Name>
+      <Type>MonthOfYear</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e67d2837-d55d-4b06-9636-3e114b359b69">
+          <DataType>WChar</DataType>
+          <DataSize>11</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="91fd2a2f-6ba0-4ab8-baa1-1c0558e518fe">
+            <TableID>Dimension_Date</TableID>
+            <ColumnID>PFD_MonthYearKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d286c151-fd2b-48fb-9653-ae014a9448ce">
+      <ID>PFD Month Year</ID>
+      <Name>PFD Month Year</Name>
+      <Type>MonthOfYear</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a6a3d0ed-0746-4c58-a967-6b2d6b839fd8">
+          <DataType>WChar</DataType>
+          <DataSize>8</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="aade6d07-6bb9-4d27-b243-39e592ec0de9">
+            <TableID>Dimension_Date</TableID>
+            <ColumnID>PFD_MonthYear</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="d9aa842a-afa2-4cd8-a0cc-f1061b11377d">
+          <AttributeID>PFD Year Quarter</AttributeID>
+          <Name>PFD Year Quarter</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="11384776-399c-4d45-a91e-02109e73c7d2">
+      <ID>PFD Quarter Number</ID>
+      <Name>PFD Quarter Number</Name>
+      <Type>Quarters</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8bf05f43-2054-45d3-a33f-33a6ecbd8d2a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="94ccf0b2-55c3-433b-acd0-ac8ab16745c9">
+            <TableID>Dimension_Date</TableID>
+            <ColumnID>PFD_QuarterNumber</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="157d5422-d670-4b46-a0bd-8f9dce4018ab">
+      <ID>PFD Quarter Year Key</ID>
+      <Name>PFD Quarter Year Key</Name>
+      <Type>QuarterOfYear</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="298839f7-0e51-4885-bab4-2284657d87d3">
+          <DataType>WChar</DataType>
+          <DataSize>5</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="07fdb2aa-1244-499d-99d1-486dba6442b1">
+            <TableID>Dimension_Date</TableID>
+            <ColumnID>PFD_QuarterYearKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a7437c02-c6dc-482b-9f55-8f10b745f633">
+      <ID>PFD Quarter</ID>
+      <Name>PFD Quarter</Name>
+      <Type>QuarterOfYear</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d52eeb49-78ed-4647-8d72-7e89bbca963f">
+          <DataType>WChar</DataType>
+          <DataSize>2</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dba4f71b-af70-4da3-ac95-222ffd5e0a50">
+            <TableID>Dimension_Date</TableID>
+            <ColumnID>PFD_Quarter</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ef644a76-069e-4e9a-9b31-11bdf6cd4c50">
+      <ID>PFD Year Quarter</ID>
+      <Name>PFD Year Quarter</Name>
+      <Type>QuarterOfYear</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b6f7feee-9d95-4107-a169-64b078275123">
+          <DataType>WChar</DataType>
+          <DataSize>7</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5f8e4761-57f7-44e2-b1a8-cae5700ddbc1">
+            <TableID>Dimension_Date</TableID>
+            <ColumnID>PFD_YearQuarter</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="b1af4db5-906d-4716-bc6a-1eb9456966e7">
+          <AttributeID>Calendar Year</AttributeID>
+          <Name>Calendar Year</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5b0ecf38-61ba-48ce-b81b-789be1eaae3e">
+      <ID>PFD Beginning Quarter</ID>
+      <Name>PFD Beginning Quarter</Name>
+      <Type>Date</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="12720a28-12ba-47bb-966c-67199b449483">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9b48870e-ca13-446c-9465-6b71e92066f1">
+            <TableID>Dimension_Date</TableID>
+            <ColumnID>PFD_BeginningQuarter</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="46f22f7e-485d-47c8-b389-0470af3a44b0">
+      <ID>PFD Beginning Month</ID>
+      <Name>PFD Beginning Month</Name>
+      <Type>Date</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="252edce2-0db1-4846-9eb2-849b2bded546">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="76559012-48c9-4667-99df-ff7c2cba404a">
+            <TableID>Dimension_Date</TableID>
+            <ColumnID>PFD_BeginningMonth</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="509c94ae-9280-4a47-b769-3dfa46f1386d">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="79e7567b-1653-44a1-9e95-e44f1c221352">
+          <ID>Calendar Year</ID>
+          <Name>Calendar Year</Name>
+          <SourceAttributeID>Calendar Year</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="c7537676-cfe5-4fdc-bc7c-ea3d678286b6">
+          <ID>PFD Year Quarter</ID>
+          <Name>PFD Year Quarter</Name>
+          <SourceAttributeID>PFD Year Quarter</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="c82bac04-10bc-4811-93ca-9d2c3824de6b">
+          <ID>PFD Month Year</ID>
+          <Name>PFD Month Year</Name>
+          <SourceAttributeID>PFD Month Year</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="79dac3ab-bde1-49c3-9458-b101c8620e44">
+          <ID>Date</ID>
+          <Name>Date</Name>
+          <SourceAttributeID>Date</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
